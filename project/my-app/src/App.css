@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #f9f9f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.NavBarContainer {
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+  color: rgb(218, 53, 10);
+  font-size: 32px;
+  box-shadow: rgba(0, 0, 0, 0.08) 10px 0px 12px 0px;
+}
+
+.CanvasContainer {
+  min-height: 600px;
+  padding: 20px;
+}
+
+.PaintContainer {
+  margin-top: 20px;
+}
+
+.MainContainer {
+  min-height: 500px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 12px;
+  display: flex;
+}
+
+.Canvas {
+  position: relative;
+  border: 1px solid red;
+  word-wrap: break-word;
+  font-size: 11px;
+  background-color: white;
+}
+
+.Scope {
+  background-color: green;
+}
+.CellPaint {
+  width: 20px;
+  height: 20px;
+  text-align: center; 
+  vertical-align: middle;
+}
+
+.CellBorderPaint {
+  background-color: black;
+}
+
+.CellPaintBackground {
+  background-color: red;
+}
